@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="1.3" title="StrichLuxIOSPI" device="LCMXO2-256HC-4TG100C" default_implementation="StrichLuxIOSPI">
+    <Options/>
+    <Implementation title="StrichLuxIOSPI" dir="StrichLuxIOSPI" description="StrichLuxIOSPI" default_strategy="Strategy1">
+        <Options top="StrichLuxIOSPI"/>
+        <Source name="StrichLuxIOSPI.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="IOSPIManagementController.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Mux41.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Mux14.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="IOSPITXInterface.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="IOSPIOutputController.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="ClockDivider.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="StrichLuxIOSPI.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="StrichLuxIOSPI/StrichLuxIOSPI.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Strategy1.sty"/>
+</BaliProject>

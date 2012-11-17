@@ -1,0 +1,28 @@
+SCUBA, Version Diamond_1.4_Production (87)
+Wed Jun 20 14:40:37 2012
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2011 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : E:\lscc\diamond\1.4\ispfpga\bin\nt\scuba.exe -w -n EFB1 -lang verilog -synth synplify -bus_exp 7 -bb -type efb -arch xo2c00 -freq 2.08 -i2c1 -i2c1_freq 100 -i2c1_sa 0001001 -i2c1_addr 7 -spi -spi_mode Both -spi_rxo -spi_rxr -spi_txo -spi_txr -spi_en -spi_freq .5 -spi_cs 2 -dev 256 -e 
+    Circuit name     : EFB1
+    Module type      : efb
+    Module Version   : 1.0
+    Ports            : 
+	Inputs       : wb_clk_i, wb_rst_i, wb_cyc_i, wb_stb_i, wb_we_i, wb_adr_i[7:0], wb_dat_i[7:0], spi_scsn
+	Outputs      : wb_dat_o[7:0], wb_ack_o, i2c1_irqo, spi_csn[1:0], spi_irq
+	Inouts       : i2c1_scl, i2c1_sda, spi_clk, spi_miso, spi_mosi
+    I/O buffer       : not inserted
+    EDIF output      : suppressed
+    Verilog output   : EFB1.v
+    Verilog template : EFB1_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : EFB1.srp
+    Element Usage    :
+             BB : 5
+            EFB : 1
+    Estimated Resource Usage:
